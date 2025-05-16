@@ -11,16 +11,16 @@ export default function Header() {
                 </Link>
 
                 <div className="flex items-center space-x-6">
-                    <Link href="/" className="text-sm font-medium">
+                    <Link href="/product" className="text-sm font-medium">
                         How it works
                     </Link>
 
-                    <Link href="/" className="text-sm font-medium">
+                    <Link href="/about" className="text-sm font-medium">
                         Who are we
                     </Link>
 
-                    <Button asChild className="primary">
-                        <Link href="/">
+                    <Button asChild>
+                        <Link href="/product/pre-order">
                             Pre-Order
                         </Link>
                     </Button>
