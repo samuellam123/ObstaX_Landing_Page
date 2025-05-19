@@ -19,15 +19,15 @@ export default function Header() {
                 </Link>
 
                 <div className="flex items-center space-x-6">
-                    <Link href="/product" className="text-sm font-medium hidden sm:flex">
+                    <Link href="/product" className="nav-link hidden sm:flex">
                         How it works
                     </Link>
 
-                    <Link href="/about" className="text-sm font-medium hidden sm:flex">
+                    <Link href="/about" className="nav-link hidden sm:flex">
                         Who are we
                     </Link>
 
-                    <Button asChild>
+                    <Button asChild className="hover:bg-secondary hover:text-foreground">
                         <Link href="/product/pre-order">
                             Pre-Order
                         </Link>
