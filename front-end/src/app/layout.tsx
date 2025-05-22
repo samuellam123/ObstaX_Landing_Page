@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-w-[375px]">
+      <body className="min-w-[375px] bg-primary-foreground ">
         <Header />
         {children}
       </body>

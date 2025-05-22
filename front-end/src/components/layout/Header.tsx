@@ -11,8 +11,8 @@ import {
 
 export default function Header() {
     return (
-        <header className="sticky top-0 z-50 bg-slate-300 w-full px-8 py-4">
-            <div className="flex justify-between items-center max-w-2xl mx-auto w-full">
+        <header className="sticky top-0 z-50 bg-slate-300 w-full px-16 py-4">
+            <div className="flex justify-between items-center max-w-5xl mx-auto w-full">
 
                 <Link href="/" className="text-xl font-bold">
                     ObstaX
